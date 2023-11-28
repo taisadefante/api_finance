@@ -2,7 +2,7 @@
 
 ## Banco de Dados - ok
 
-(jessica)
+
 usuarios
 id - sequencial e unico
 nome - texto
@@ -17,19 +17,19 @@ tipo - entrada ou saida
 
 ## Rotas
 
-(jessica)
+
 POST /usuarios - cadastrar usuario - ok
 POST /login - realizar login do usuario gerar token com jwt - ok
 
 ### Toda as rotas abaixo devem estar autenticadas
 
-(jessica)
+
 
 - autenticar usuario
   => usuarios - ok
   GET /usuarios - detalhar usuario
 
-(rapha)
+
 => transações
 GET /transacao => lista todas as transações
 POST /transacao => cadastra uma transação
